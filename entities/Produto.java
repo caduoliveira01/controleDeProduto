@@ -17,6 +17,6 @@ public class Produto {
     }
 
     public String toString(){
-       return "Product data: "+name+", $"+price+", "+quantity+" units, Total: "+totalValueInStock();
+       return "Product data: "+name+", $"+String.format("%.2f", price)+", "+quantity+" units, Total: "+String.format("%.2f", totalValueInStock());
     }
 }
