@@ -8,12 +8,13 @@ public class Programa{
 
         System.out.println("Enter products data:");
         System.out.println("Name:");
-        produto.name=sc.next();
+        produto.name=sc.nextLine();
         System.out.println("Price:");
         produto.price=sc.nextDouble();
         System.out.println("Quantity:");
         produto.quantity=sc.nextInt();
 
+        System.out.println(produto);
 
         sc.close();
     }
